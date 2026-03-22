@@ -19,7 +19,7 @@ import {
 
 
 export function MiPerfilPage() {
-  const user = useAuthStore((s) => s.user);
+  //const user = useAuthStore((s) => s.user);
   const [currentPassword, setCurrentPassword] = useState('');
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
